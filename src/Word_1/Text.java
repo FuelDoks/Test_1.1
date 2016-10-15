@@ -8,12 +8,13 @@ public class Text {
 
     public static void main(String args[])  throws IOException {
         FileInputStream in  = null;
-        FileOutputStream    = null;
+        FileOutputStream   out = null;
+
 
         
         try {
             in = new FileInputStream("input.txt");
-            Out = new FileOutputStream("output.txt");
+            out = new FileOutputStream("output.txt");
 
             int c;
             while ((c =in.read())   !=  -1) {
